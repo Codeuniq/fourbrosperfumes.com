@@ -307,16 +307,16 @@ a:focus {
 }
 
 .logo{
-  height: 60px;
+  height: 70px;
   width: auto;
   filter: drop-shadow(2.5px 2.5px 1px #000);
 }
 
 .bann1{
-  height: 605px;
+  height: 606px;
 }
 .bann2{
-  height: 605px;
+  height: 606px;
 }
 
 
@@ -343,7 +343,7 @@ a:focus {
     font-size: 2.5rem;
   }
   .mainsec{
-    margin-top: -86px;
+    margin-top: -96px;
   }
   .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 10px 30px;
@@ -424,7 +424,7 @@ a:focus {
     margin-top: -85px;
   }
   .logo{
-    height: 50px;
+    height: 60px;
     width: auto;
     filter: drop-shadow(2.5px 2.5px 1px #000);
   }
@@ -473,6 +473,13 @@ a:focus {
   
   .custom_nav-container .navbar-nav .nav-item.active > a {
     color: #000;
+  }
+
+  .wsk-cp-img img {
+    height: 299px !important;
+  }
+  .wsk-cp-product {
+  height: 467px;
   }
   
 }
@@ -884,6 +891,7 @@ a:focus {
   padding: 75px 0 175px 0;
 }
 
+
 .client_section .client_container .box {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1277,9 +1285,10 @@ a:focus {
   background:#fff;
   padding:15px;
   border-radius:6px;
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12), 0 4px 8px rgba(0,0,0,0.24);
   position:relative;
   margin:20px auto;
+  /* box-shadow: 0px 4px 8px 0px #bdbdbd; */
 }
 .wsk-cp-img{
   position:absolute;
@@ -1457,11 +1466,11 @@ a.buy-btn:hover , a.buy-btn:active, a.buy-btn:focus{
   padding: 11px 28px;
 }
 .wsk-cp-product .wsk-cp-text .category{
-  margin-top: 0px;
+  margin-top: -133px;
 }
 a.buy-btn{
-  border-color: #FF9800;
-  background: #FF9800;
+  border-color: #46200b;
+  background: #46200b;
   color: #fff;
 }
 }
@@ -1948,4 +1957,22 @@ a.buy-btn{
 
 textarea.form-control {
   height: 90px;
+}
+
+.choco_section {
+  background: url("../images/bg.jpg") center top no-repeat fixed;
+  background-size: cover;
+  padding: 60px 0 40px 0;
+  position: relative;
+}
+
+.choco_section::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.92);
+  /* z-index: 1; */
 }
