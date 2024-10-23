@@ -36,9 +36,9 @@
     margin: 10px 0;
   }
 
-  .slider_section {
+  /* .slider_section {
     padding: 75px 0 145px 0;
-  }
+  } */
 
   .slider_section::before {
     width: 80%;
