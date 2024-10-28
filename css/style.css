@@ -326,6 +326,12 @@ a:focus {
 
 /*Desktop Query*/
 @media only screen and (min-width: 840px) {
+  .wsk-cp-text{
+    padding-top:108% !important;
+  }
+  .wsk-cp-img img {
+    height: 355px !important;
+  }
   .about_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -515,6 +521,9 @@ a:focus {
     opacity: 0;
     animation: change-img-anim 10s infinite;
     height: 365px !important;
+  }
+  .header-top{
+    display: none !important;
   }
   
 }
@@ -2300,3 +2309,88 @@ textarea.form-control {
     bottom: 100%;
   }
 }
+
+.header-top {
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--cultured);
+}
+
+.header-social-container,
+.header-top-actions { display: none; }
+
+.header-top .container,
+  .header-main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header-logo { margin-bottom: 0; }
+
+  .header-top-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .header-top-actions select {
+    border: none;
+    display: block;
+    min-width: 80px;
+    padding: 5px 0;
+    font: inherit;
+    color: var(--sonic-silver);
+    font-size: var(--fs-8);
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: var(--transition-timing);
+  }
+
+  .header-top-actions select:hover { color: var(--eerie-black); }
+
+  .header-search-container { min-width: 300px; }
+  
+  .header-social-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .social-icons{
+    /* padding:30px; */
+    /* background-color:#00506b; */
+    text-align: center;
+  }
+  .social-icons a{
+    color:#000;
+    line-height:30px;
+    font-size:30px;
+    margin: 0 5px;
+    text-decoration:none;
+    
+  }
+  .social-icons a i{
+    line-height:30px;
+    font-size:30px;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1); 
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1); 
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1);
+    transition: all 200ms ease-in;
+    transform: scale(1);
+  }
+  .social-icons a:hover i{
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.5);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.5);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.5);
+    transition: all 200ms ease-in;
+    transform: scale(1.5);
+  }
