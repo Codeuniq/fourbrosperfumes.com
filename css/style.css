@@ -1635,7 +1635,7 @@ a.buy-btn{
 
 .back-to-top {
   position: fixed;
-  display: none;
+  /* display: none; */
   /* background: #46200b; */
   color: #fff;
   /* width: 44px;
