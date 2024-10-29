@@ -17,6 +17,8 @@ getYear();
   });
 
 
+  
+
 // slick slider
 $('.chocolate_container').slick({
     infinite: true,
@@ -50,4 +52,8 @@ function myMap() {
         zoom: 18,
     };
     var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+
+function closemodal(){
+    document.getElementById('id01').style.display='none'
 }
