@@ -326,6 +326,9 @@ a:focus {
 
 /*Desktop Query*/
 @media only screen and (min-width: 840px) {
+  .bodleft{
+    border-right: 3px ridge !important;
+  }
   .wsk-cp-text{
     padding-top:108% !important;
   }
@@ -530,6 +533,9 @@ a:focus {
 
 /*Tablet Query*/
 @media only screen and (min-width: 481px) and (max-width:839px) {
+  .bodleft{
+    border-right: 3px ridge !important;
+  }
   .about_container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2411,3 +2417,39 @@ textarea.form-control {
     transition: all 200ms ease-in;
     transform: scale(1.5);
   }
+
+  .marker { list-style: none; margin: 1em 0; }
+  .marker:before { 
+      content: '\2713';
+      display: inline-block;
+      position: relative;
+      top: 0px;
+      width: 17px;
+      height: 17px;
+      margin-right: 8px;
+      padding: 2px;
+      font-size: 12px;
+      font-weight: bold;
+      line-height: 10px;
+      color: black;
+      border: 2px solid #FFF65C;
+      border-radius: 50%;
+      text-align: center;
+      filter: drop-shadow(1.5px 1.5px 1px #3A2C00);
+     }
+
+     .padd{
+      padding: 0 !important;
+     }
+
+     .lifont{
+      font-size: 15px;
+      color: #757575;
+      font-family: Nunito Sans;
+     }
+     .ulfont{
+      font-size: 22px;
+      color: #000000;
+      font-weight: 500;
+      font-family: "Fira Sans";
+     }
