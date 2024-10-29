@@ -57,3 +57,6 @@ function myMap() {
 function closemodal(){
     document.getElementById('id01').style.display='none'
 }
+
+
+
