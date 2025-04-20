@@ -326,6 +326,19 @@ a:focus {
 
 /*Desktop Query*/
 @media only screen and (min-width: 840px) {
+  .vertical {
+    border-left: 5px dotted black;
+    height: 100px;
+    position: absolute;
+    left: 35%;
+  }
+  .mains,
+  .copy-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+  }
   .bodleft{
     border-right: 3px ridge !important;
   }
@@ -399,6 +412,7 @@ a:focus {
 
 /*Mobile Query*/
 @media only screen and (max-width: 480px) {
+  
   .choco{
     margin-top: -81px;
   }
@@ -531,11 +545,53 @@ a:focus {
   .header-top{
     display: none !important;
   }
+  .cards {
+    width: 307px !important;
+    height: 325px !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px 10px;
+    position: relative;
+}
+.co-img{
+  display: flex !important;;
+  justify-content: center !important;
+  border-bottom: 2px dotted !important;
+}
+.contents{
+  text-align: center !important;
+}
+.copy-button button{   
+   margin-top: 7px !important;
+  margin-left: 94px !important;}
   
 }
 
 /*Tablet Query*/
 @media only screen and (min-width: 481px) and (max-width:839px) {
+  .cards {
+    width: 616px !important;
+    height: 200px !important;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px 10px;
+    position: relative;
+}
+  .vertical {
+    border-left: 5px dotted black;
+    height: 100px;
+    position: absolute;
+    left: 35%;
+  }
+  .mains,
+  .copy-button {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    align-items: center;
+  }
   .bodleft{
     border-right: 3px ridge !important;
   }
@@ -2457,85 +2513,7 @@ textarea.form-control {
       font-family: "Fira Sans";
      }
      
-     .modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      background: hsla(0, 0%, 0%, 0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
-      z-index: 10;
-      animation: popup 1s ease-in-out 5s forwards;
-    }
-    
-    @keyframes popup {
-    
-      0% {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-      }
-    
-      100% {
-        opacity: 1;
-        visibility: visible;
-        pointer-events: all;
-      }
-    
-    }
-    
-    .modal.closed { display: none; }
-    
-    .modal-close-overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: 1;
-    }
-    
-    .modal-content {
-      position: relative;
-      max-width: 525px;
-      margin: 20px;
-      /* background: var(--white); */
-      border-radius: 10px;
-      overflow: hidden;
-      z-index: 999;
-      animation: scaleUp 0.5s ease-in-out 1s forwards;
-      /* flex-direction: row !important; */
-    }
-    
-    @keyframes scaleUp {
-    
-      0% { transform: scale(0.9); }
-      100% { transform: scale(1); }
-    
-    }
-    
-    .modal-close-btn {
-      position: absolute;
-      top: 15px;
-      right: 15px;
-      background: var(--salmon-pink);
-      color: var(--white);
-      font-size: 16px;
-      padding: 5px;
-      border-radius: var(--border-radius-sm);
-    }
-    
-    .modal-close-btn:hover { opacity: 0.9; }
-    
-    .modal-close-btn ion-icon { --ionicon-stroke-width: 70px; }
-    
-    
+     
   
     .card-wrapper{
       max-width: 1100px;
@@ -2763,12 +2741,12 @@ textarea.form-control {
           grid-template-columns: repeat(2, 1fr);
           grid-gap: 1.5rem;
       }
-      .card-wrapper{
+      /* .card-wrapper{
           height: 100vh;
           display: flex;
           justify-content: center;
           align-items: center;
-      }
+      } */
       .product-imgs{
           display: flex;
           flex-direction: column;
@@ -2778,3 +2756,254 @@ textarea.form-control {
           padding-top: 0;
       }
   }
+
+  .cards {
+    width: 400px;
+    height: 200px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 10px 10px;
+    position: relative;
+  }
+  
+  
+  .cards::after {
+    position: absolute;
+    content: "";
+    height: 40px;
+    right: -20px;
+    border-radius: 40px;
+    z-index: 1;
+    top: 70px;
+    background-color: white;
+    width: 40px;
+    border-left: rgba(0, 0, 0, 0.9) 1px dotted;
+  }
+  
+  .cards::before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    left: -20px;
+    border-radius: 40px;
+    z-index: 1;
+    top: 70px;
+    background-color: white;
+    width: 40px;
+    border-right: rgba(0, 0, 0, 0.9) 1px dotted;
+  }
+  
+  .co-img img {
+    width: 100px;
+    height: 100px;
+    margin-left: 10px;
+  }
+  
+  
+  .contents h1 {
+    font-size: 35px;
+    margin-left: -20px;
+    color: #565656;
+  }
+  
+  .contents h1 span {
+    font-size: 18px;
+  }
+  .contents h2 {
+    font-size: 18px;
+    margin-left: -20px;
+    color: #565656;
+    text-transform: uppercase;
+  }
+  
+  .contents p {
+    font-size: 16px;
+    color: #696969;
+    margin-left: -20px;
+  }
+  
+  .copy-button {
+    margin: 12px 0 -5px 0;
+    height: 45px;
+    border-radius: 4px;
+    padding: 0 5px;
+    border: 1px solid #e1e1e1;
+  }
+  
+  .copy-button input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+  
+  .copy-button .crozu {
+    padding: 5px 20px;
+    background-color: #46200b;
+    color: #fff;
+    border: 1px solid transparent;
+  }
+
+  .copy-button .momuu {
+    padding: 5px 20px;
+    background-color: skyblue;
+    color: #fff;
+    border: 1px solid transparent;
+  }
+  
+  /* .buy{
+   position: absolute;
+    content: "";
+    bottom: 20px;
+    left:20px;
+    background-color: #dc143c;
+   } */
+  
+   .ssection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    width: 100%;
+    background: url("../images/crop.webp")
+      no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .msection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; 
+    width: 100%;
+    background: url("../images/momp.webp")
+      no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .form-box {
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ssh2 {
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+  }
+  
+  .inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  input:focus ~ label {
+    top: -5px;
+  }
+  input:valid ~ label {
+    top: -5px;
+  }
+  
+  .inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: #fff;
+  }
+  
+  .inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+  }
+  
+  .forget {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 15px;
+    font-size: 0.9em;
+    color: #fff;
+  }
+  
+  .forget label:nth-child(2) {
+    order: 1;
+  }
+  
+  .forget label {
+    display: flex;
+    align-items: center;
+  }
+  
+  .forget label input[type="checkbox"] {
+    margin-right: 6px;
+  }
+  
+  .forget label a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .forget label a:hover {
+    text-decoration: underline;
+  }
+  
+  .buttonss {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+  }
+  
+  .register {
+    font-size: 0.9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+  }
+  
+  .register p a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .register p a:hover {
+    text-decoration: underline;
+  }
+  
