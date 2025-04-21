@@ -41,6 +41,49 @@
 </head>
 
 <body>
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="wrapper">
+            <section class="comsection">
+              <div class="form-box">
+                <div class="form-value">
+                  <form action="">
+                    <h2 class="text-center" style="color: #fff;"><b>CODE : KONASEMA143 </b></h2>
+                    <div class="inputbox">
+                      <ion-icon name="mail-outline"></ion-icon>
+                      <input  required id="promoCode" onkeyup="success()" style="text-transform:uppercase">
+                      <label for="">Enter Code <small style="font-size: 10px;color: red;">(Capital Letter Required)</small></label>
+                    </div>
+                    
+                    <div class="d-flex justify-content-center">
+                      <a class="buttonss text-center" href="https://wa.me/+971586335689?text=I'd like to place an order for the Combo Perfume. ♡ Promotion Code Applied (✓)" id="anchBtn" target="_blank" style="pointer-events: none;color: grey !important;background: white;align-content: center;">
+                       <span>BUY NOW <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                      </svg></span> 
+                        </a>
+
+                    </div>
+                    
+                    
+                    <!-- <div class="register">
+                      <p>Don't have a account ? <a href="#">Register</a></p>
+                    </div> -->
+                  </form>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <!-- <div class="modal" data-modal id="id01">
 
     <div class="modal-close-overlay" data-modal-overlay></div>
@@ -560,7 +603,34 @@
               C'ROZ +  MOMENTS <br>
               AED 120 /-
             </h3>
-            <a class="btns" href="https://wa.me/+971586335689?text=I Want COMBO PERFUME" target="_blank">
+            <div class="d-flex justify-content-center" style="font-family: Verdana, Geneva, Tahoma, sans-serif !important;">
+              <div class="cards">
+                <div class="mains">
+                  <div class="co-img">
+                    <img
+                      src="images/FOUR BROS (2).webp"
+                      alt=""
+                    />
+                  </div>
+                  <div class="vertical"></div>
+                  <div class="contents">
+                    <!-- <h3>FOUR BRO'S PERFUMES</h3> -->
+                    <h1>10% <span>Discount Offer</span></h1>
+                    <p>APPLY PROMO CODE HERE <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-down" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M3.5 10a.5.5 0 0 1-.5-.5v-8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 .5.5v8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 0 0 1h2A1.5 1.5 0 0 0 14 9.5v-8A1.5 1.5 0 0 0 12.5 0h-9A1.5 1.5 0 0 0 2 1.5v8A1.5 1.5 0 0 0 3.5 11h2a.5.5 0 0 0 0-1z"/>
+                      <path fill-rule="evenodd" d="M7.646 15.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 14.293V5.5a.5.5 0 0 0-1 0v8.793l-2.146-2.147a.5.5 0 0 0-.708.708z"/>
+                    </svg></p>
+                  </div>
+                </div>
+                <div class="copy-button">
+                  <input id="copyvalue" type="text" readonly value="CODE : KONASEMA143" />
+                  <button style="color: black !important;" type = "button" class = "momuu btn" data-toggle="modal" data-target="#exampleModalCenter">
+                    APPLY
+                  </button>
+                </div>
+              </div>
+            </div>
+            <a class="btns" href="https://wa.me/+971586335689?text=I'd like to place an order for the Combo Perfume" target="_blank">
               <span></span>
               <span></span>
               <span></span>
@@ -967,6 +1037,25 @@
     </g>
     </svg>
     </a>
+
+  <script>
+    let user="KONASEMA143"
+  function success() {
+    console.log(user)
+    if(document.getElementById("promoCode").value == user) { 
+      console.log("success",document.getElementById("promoCode").value == user)
+              // document.getElementById('subBtn').disabled = false; 
+              document.getElementById('anchBtn').style.pointerEvents = "auto";
+              document.getElementById('anchBtn').style.color = "#fff";
+              document.getElementById('anchBtn').style.background = "#46200b";
+          } else { 
+              // document.getElementById('subBtn').disabled = true;
+              document.getElementById('anchBtn').style.pointerEvents = "none";
+              document.getElementById('anchBtn').style.color = "grey";
+              document.getElementById('anchBtn').style.background = "#fff";
+          }
+      }
+  </script>
 
   <!-- jQery -->
   <script  src="js/jquery-3.4.1.min.js"></script>

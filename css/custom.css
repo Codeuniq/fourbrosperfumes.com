@@ -1,4 +1,4 @@
-.modal {
+/* .modal {
     position: fixed;
     top: 0;
     left: 0;
@@ -46,12 +46,10 @@
     position: relative;
     max-width: 525px;
     margin: 20px;
-    /* background: var(--white); */
     border-radius: 10px;
     overflow: hidden;
     z-index: 999;
     animation: scaleUp 0.5s ease-in-out 1s forwards;
-    /* flex-direction: row !important; */
   }
   
   @keyframes scaleUp {
@@ -76,4 +74,30 @@
   
   .modal-close-btn ion-icon { --ionicon-stroke-width: 70px; }
   
-  
+   */
+
+   .cards::before {
+    position: absolute;
+    content: "";
+    height: 40px;
+    left: -20px;
+    border-radius: 40px;
+    z-index: 1;
+    top: 70px;
+    background-color: lightpink !important;
+    width: 40px;
+    border-right: rgba(0, 0, 0, 0.9) 1px dotted;
+}
+
+.cards::after {
+  position: absolute;
+  content: "";
+  height: 40px;
+  right: -20px;
+  border-radius: 40px;
+  z-index: 1;
+  top: 70px;
+  background-color: lightpink !important;
+  width: 40px;
+  border-left: rgba(0, 0, 0, 0.9) 1px dotted;
+}
