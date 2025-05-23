@@ -284,6 +284,11 @@ a:focus {
 .emi{
   font-family: Emirates Bold;
 }
+.fus{
+  background-image: url(../images/8.webp);
+  background-size: 100% 100%;
+  z-index: 2;
+}
 
 .mom{
   background-image: url(../images/000.webp);
@@ -498,6 +503,10 @@ a:focus {
     margin-top: -297px;
   }
   .mom1{
+    content:url("../images/mom1.webp");
+    margin-top: -55px;
+  }
+  .fus1{
     content:url("../images/mom1.webp");
     margin-top: -55px;
   }
@@ -1663,6 +1672,15 @@ a.buy-btn{
   text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
 }
 
+.newper{
+  color: #9c8468;
+  /* opacity: 0.8; */
+  line-height: 1;
+  padding: 0;
+  /* text-shadow: -1px -1px 1px #fff, 1px 1px 1px #fff; */
+  text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
+}
+
 .combined {
   -webkit-text-stroke: 1px black;
   color: white;
@@ -2132,6 +2150,10 @@ a.buy-btn{
   65%  { transform: translate(0, 30px); }
   to   { transform: translate(0, -0px); }    
 }
+
+
+
+
 
 .quote-sign-left {
   margin-top: -15px;
