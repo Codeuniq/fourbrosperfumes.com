@@ -285,6 +285,12 @@ a:focus {
   font-family: Emirates Bold;
 }
 .fus{
+  background-image: url(../images/9.webp);
+  background-size: 100% 100%;
+  z-index: 2;
+}
+
+.mhr{
   background-image: url(../images/8.webp);
   background-size: 100% 100%;
   z-index: 2;
@@ -308,6 +314,12 @@ a:focus {
 
 .mom1{
   content:url("../images/mom1.webp");
+}
+.mahr{
+  content:url("../images/mahra.png");
+}
+.fusi{
+  content:url("../images/fusi.png");
 }
 
 .crozz{
@@ -506,8 +518,12 @@ a:focus {
     content:url("../images/mom1.webp");
     margin-top: -55px;
   }
-  .fus1{
-    content:url("../images/mom1.webp");
+  .fusi{
+    content:url("../images/fusi.png");
+    margin-top: -55px;
+  }
+  .mahr{
+    content:url("../images/mahra.png");
     margin-top: -55px;
   }
   .crozz{
@@ -3052,4 +3068,3 @@ textarea.form-control {
     font-weight: bold;
     line-height: 25px;
 }
-
