@@ -162,7 +162,7 @@ a:focus {
   display: block;
   width: 35px;
   height: 4px;
-  background-color: #46200b;
+  background-color: #526718;
   border-radius: 5px;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
@@ -177,7 +177,7 @@ a:focus {
   left: 0;
   height: 100%;
   width: 100%;
-  background-color: #46200b;
+  background-color: #526718;
   border-radius: 5px;
   top: -10px;
   -webkit-transition: all 0.3s;
@@ -248,7 +248,7 @@ a:focus {
   z-index: 2;
   background-size: cover;
   background-position: top;
-  color: #46200b;
+  color: #526718;
 }
 
 .slider_section .row {
@@ -291,19 +291,19 @@ a:focus {
 }
 
 .mhr{
-  background-image: url(../images/8.webp);
+  background-image: url(../images/7.webp);
   background-size: 100% 100%;
   z-index: 2;
 }
 
 .mom{
-  background-image: url(../images/000.webp);
+  background-image: url(../images/8.webp);
   background-size: 100% 100%;
   z-index: 2;
 }
 
 .croz{
-  background-image: url(../images/7.webp);
+  background-image: url(../images/9.webp);
   background-size: 100% 100%;
   z-index: 2;
 }
@@ -313,23 +313,23 @@ a:focus {
 }
 
 .mom1{
-  content:url("../images/mom1.webp");
+  content:url("../images/fasi.png");
 }
 .mahr{
-  content:url("../images/mahra.png");
+  content:url("../images/lipfasi.png");
 }
-.fusi{
-  content:url("../images/fusi.png");
-}
+/* .fusi{
+  content:url("../images/lipfasi.png");
+} */
 
 .crozz{
-  content:url("../images/croz.webp");
+  content:url("../images/facefasi.png");
 }
 
 .logo{
-  height: 70px;
+  height: 80px;
   width: auto;
-  filter: drop-shadow(2.5px 2.5px 1px #000);
+  /* filter: drop-shadow(2.5px 2.5px 1px #000); */
 }
 
 .bann1{
@@ -464,7 +464,7 @@ a:focus {
     font-weight: bold;
     margin-bottom: 30px;
     font-family: "SnellBT Regular", sans-serif;
-    color: #46200b;
+    color: #526718;
   }
   .slider_section .detail_box a {
     display: -webkit-box;
@@ -478,7 +478,7 @@ a:focus {
     font-weight: 500;
     /* margin-top: 75px; */
     font-size: 20px;
-    color: #46200b;
+    color: #526718;
   }
 
   .slider_section .img-box img {
@@ -486,18 +486,18 @@ a:focus {
     height: 400px !important;
   }
   .arrow{
-    content:url("../images/color-arrow.webp");
+    content:url("../images/color-arrow.png");
   }
   .read{
-    color: #46200b !important;
+    color: #526718 !important;
   }
   .marg{
     margin-top: -85px;
   }
   .logo{
-    height: 60px;
+    height: 100px;
     width: auto;
-    filter: drop-shadow(2.5px 2.5px 1px #000);
+    /* filter: drop-shadow(2.5px 2.5px 1px #000); */
   }
   .bann1{
     height: 655px;
@@ -515,19 +515,19 @@ a:focus {
     margin-top: -297px;
   }
   .mom1{
-    content:url("../images/mom1.webp");
+    content:url("../images/fasi.png");
     margin-top: -55px;
   }
   .fusi{
-    content:url("../images/fusi.png");
+    content:url("../images/lipfasi.png");
     margin-top: -55px;
   }
-  .mahr{
-    content:url("../images/mahra.png");
+  /* .mahr{
+    content:url("../images/fasi.png");
     margin-top: -55px;
-  }
+  } */
   .crozz{
-    content:url("../images/croz.webp");
+    content:url("../images/facefasi.png");
     margin-top: -55px;
   }
   .about_container {
@@ -702,7 +702,7 @@ a:focus {
   font-weight: 1000;
   margin-bottom: 30px;
   font-family: "SnellBT Regular", sans-serif;
-  color: #46200b;
+  color: #526718;
 }
 
 .slider_section .detail_box h1 span {
@@ -773,7 +773,7 @@ a:focus {
 
 .slider_section .carousel_btn-box .carousel-control-prev:hover,
 .slider_section .carousel_btn-box .carousel-control-next:hover {
-  color: #46200b;
+  color: #526718;
 }
 
 .about_section .detail-box p {
@@ -788,7 +788,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   font-family: "SnellBT Regular", sans-serif;
-  color: #46200b;
+  color: #526718;
   font-weight: bold;
   margin-top: 25px;
   font-size: 20px;
@@ -858,7 +858,7 @@ a:focus {
 
 .chocolate_section .box .detail-box {
   width: 100%;
-  background-color: #46200b;
+  background-color: #526718;
   color: #ffffff;
   padding: 15px;
   margin-top: 10px;
@@ -911,7 +911,7 @@ a:focus {
 
 .chocolate_section .slick-prev:hover,
 .chocolate_section .slick-next:hover {
-  background-color: #46200b;
+  background-color: #526718;
 }
 
 .chocolate_section .slick-prev:hover:before,
@@ -998,10 +998,10 @@ a:focus {
    /* box-shadow:  0 0 5px #03e9f4,  0 0 8px #03e9f4; */
   /* display: inline-block; */
   /* padding: 8px 30px; */
-  /* background-color: #46200b;
+  /* background-color: #526718;
   color: #ffffff; */
   /* border-radius: 0; */
-  /* border: 1px solid #46200b; */
+  /* border: 1px solid #526718; */
   /* -webkit-transition: all 0.3s; */
   /* transition: all 0.3s; */
   /* text-transform: uppercase; */
@@ -1040,7 +1040,7 @@ a:focus {
       -ms-flex-align: center;
           align-items: center;
   font-family: "SnellBT Regular", sans-serif;
-  color: #46200b;
+  color: #526718;
   font-weight: bold;
   margin-top: 25px;
   font-size: 20px;
@@ -1196,7 +1196,7 @@ a:focus {
 
 .client_section .carousel_btn-box .carousel-control-prev:hover,
 .client_section .carousel_btn-box .carousel-control-next:hover {
-  color: #46200b;
+  color: #526718;
 }
 
 .contact_section {
@@ -1243,10 +1243,10 @@ a:focus {
   border: none;
   display: inline-block;
   padding: 12px 35px;
-  background-color: #46200b;
+  background-color: #526718;
   color: #ffffff;
   border-radius: 0;
-  border: 1px solid #46200b;
+  border: 1px solid #526718;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-size: 15px;
@@ -1256,7 +1256,7 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #46200b;
+  color: #526718;
 }
 
 .contact_section .map_container {
@@ -1308,7 +1308,7 @@ a:focus {
   outline: none;
   color: #ffffff;
   border: none;
-  border-bottom: 1px solid #46200b;
+  border-bottom: 1px solid #526718;
 }
 
 .info_section .info_form form input::-webkit-input-placeholder {
@@ -1329,7 +1329,7 @@ a:focus {
 
 .info_section .info_form form button {
   background-color: transparent;
-  color: #46200b;
+  color: #526718;
   text-transform: uppercase;
   font-size: 12px;
   outline: none;
@@ -1673,8 +1673,8 @@ a.buy-btn:hover , a.buy-btn:active, a.buy-btn:focus{
   margin-top: -133px;
 }
 a.buy-btn{
-  border-color: #46200b;
-  background: #46200b;
+  border-color: #526718;
+  background: #526718;
   color: #fff;
 }
 }
@@ -1713,7 +1713,7 @@ a.buy-btn{
   /* opacity: 0.8; */
   line-height: 1;
   padding: 0;
-  text-shadow: 0px 0px 11px #FFF65C, 0px 0px 15px #3A2C00;
+  text-shadow: 0px 0px 11px #FFF65C, 0px 0px 15px #526718;
 }
 
 .about-img {
@@ -1735,7 +1735,7 @@ a.buy-btn{
 .back-to-top {
   position: fixed;
   /* display: none; */
-  /* background: #46200b; */
+  /* background: #526718; */
   color: #fff;
   /* width: 44px;
   height: 44px; */
@@ -2013,7 +2013,7 @@ a.buy-btn{
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  border-left: 4px solid #46200b;
+  border-left: 4px solid #526718;
 }
 
 #footer .footer-top .footer-info p {
@@ -2040,7 +2040,7 @@ a.buy-btn{
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #46200b;
+  background: #526718;
   color: #fff;
 }
 
@@ -2068,7 +2068,7 @@ a.buy-btn{
 }
 
 #footer .footer-top h4::after {
-  background: #46200b;
+  background: #526718;
   width: 60px;
 }
 
@@ -2101,7 +2101,7 @@ a.buy-btn{
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #46200b;
+  color: #526718;
 }
 
 #footer .footer-top .footer-contact {
@@ -2123,7 +2123,7 @@ a.buy-btn{
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #46200b;
+  background: #526718;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -2248,7 +2248,7 @@ textarea.form-control {
 }
 
 .combsec {
-  background: url("../images/com.webp") center top no-repeat fixed;
+  background: url("../images/com.jpg") center top no-repeat fixed;
   background-size: cover;
   padding: 60px 0 40px 0;
   position: relative;
@@ -2761,7 +2761,7 @@ textarea.form-control {
     color: #fff;
 }
 .purchase-infos .btn:first-of-type{
-    background: #46200b;
+    background: #526718;
     
 }
 .purchase-info .btn:last-of-type{
@@ -2879,7 +2879,7 @@ textarea.form-control {
   
   .copy-button .crozu {
     padding: 5px 20px;
-    background-color: #46200b;
+    background-color: #526718;
     color: #fff;
     border: 1px solid transparent;
   }
